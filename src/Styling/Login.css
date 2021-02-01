@@ -1,0 +1,113 @@
+.login {
+    background-color: white;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 60px;
+    border: 1px solid #dbdbdb;
+}
+.login-logo {
+    width: 150px;
+    object-fit: contain;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* margin-left: ; */
+}
+.login-container {
+    margin-top: -31px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* border: 1px solid lightgray; */
+}
+.login-container > h1 {
+  /* font-size: 18px; */
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.login-container > form > h5 {
+    margin-bottom: 5px;
+}
+.login-container > form > input {
+    width: 98%;
+    height: 30px;
+    border-radius: .75rem;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.login-container > p {
+    margin-top: 15px;
+    color: #000000;
+    font-size: 12px;
+}
+.login-sign-in-button {
+    background-color: #1a2cab;
+    border: 1px solid;
+    height: 30px;
+    width: 100%;
+    border-radius: .75rem;
+    margin-top: 10px;
+    color: #ffffff;
+    font-size: 21px;
+}
+.login-register-button {
+    border: 1px solid;
+    height: 30px;
+    width: 50%;
+    border-radius: .75rem;
+    margin-top: 10px;
+    color: #ffffff;
+    background: #2445ab;
+    
+}
+p.logo-self {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 800;
+    position: absolute;
+    top: 27px;
+    margin-left: 22px;
+}
+p.logo-container {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+h5.header-logo-login {
+    font-style: italic;
+    margin-left: 103px;
+}
+p.logo-container {
+    margin-top: 12px;
+    margin-bottom: 15px;
+    font-weight: 800;
+    color: #1f1d1d;
+    font-size: 19px;
+    margin-left: -13px;
+}
+.login-register {
+    display: flex;
+    width: 100%;
+}
+
+button.login-back-button {
+    border: 1px solid;
+    height: 30px;
+    width: 50%;
+    border-radius: .75rem;
+    margin-top: 10px;
+    margin-left: 24px;
+    color: #ffffff;
+    background: #2445ab;
+}
+.login-register-full {
+    width: 100%;
+}
+.login-register-full > button {
+    width: 100%;
+    margin-left: 0px;
+}

@@ -1,0 +1,18 @@
+
+.submit-checkout {
+    position: relative;
+    width: 300px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #dbdbdd;
+    background: #fff;
+    top: 30px;
+    height: 140px;
+}
+.submit-checkout > button {
+    background: orange;
+    width: 90%;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 800;
+}

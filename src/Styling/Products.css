@@ -1,0 +1,77 @@
+.products {
+    display: flex;
+    flex-direction: column;
+    /* max-width: 532px; */
+    justify-content: flex-end;
+    align-items: center;
+    max-height: 400px;
+    background-color: white;
+    border-radius: .75rem;
+    margin: 10px;
+    padding: 20px;
+    width: 100%;
+    z-index: 1;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}
+.products > img {
+    max-height: 200px;
+    width: 100%;   
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+.products-rating {
+    display: flex;
+}
+.produst-info {
+height: 100px;
+margin-bottom: 15px;
+}
+.products-proce {
+    margin-top: 5px;
+}
+.products > button {
+    border: thin;
+    border-radius: .75rem;
+    background-color: orange;
+}
+.home-product {
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.products-rating > p {
+    color: #d6b022;
+}
+  
+  
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+   
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    /* CSS */
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 320px) and (max-width: 767px) {
+    
+
+}

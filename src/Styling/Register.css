@@ -1,0 +1,44 @@
+.register-user-container {
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 1px solid #dbdbdb;
+    padding: 30px;
+    background: #ffffff;
+}
+.register-user-container > form > input {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: .75rem;
+}
+.register-user-container > form {
+    margin-right: 20px;
+}
+.register-user-container > form >h5 {
+    position: relative;
+    margin-bottom: 5px;
+}
+.register-pack-button {
+    width: 100%;
+    margin-left: 40px;
+}
+.register-pack-button > button {
+    width: 50%;
+    padding: 8px;
+    border: none;
+    border-radius: .75rem;
+    font-weight: 800;
+    color: #ffffff;
+    background: #1a2cab;
+    margin-right: 15px;
+    margin-left: -10px;
+}
+.register-pack-button {
+    width: 100%;
+    display: flex;
+}
+.register-user-container > h1 {
+    margin-bottom: 20px;
+}
